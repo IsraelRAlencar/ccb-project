@@ -5,11 +5,15 @@
 <head>
     {% include "global/partials/head.html" %}
 
-    <title> {% block title %}{% endblock title %} Bible</title>
+    <title> {% block title %}{% endblock title %} Bíblia Sagrada</title>
 </head>
 
 <body>
+    {% include "global/partials/header.html" %}
+
     {% block content %}{% endblock content %}
+
+    {% include "global/partials/footer.html" %}
 </body>
 
 </html>
