@@ -1,6 +1,6 @@
+
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
-def home(request):
-    return HttpResponse('Bible Home!')
+def home_view(request):
+    return render(request, 'bible/pages/home.html')
