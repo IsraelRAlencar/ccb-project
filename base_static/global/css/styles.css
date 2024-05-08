@@ -140,5 +140,47 @@ a:hover {
     filter: brightness(.8);
 }
 
+/* Content */
+.main-content {
+    padding-top: 1rem;
+}
 
+.content-title {
+    padding-bottom: 1rem;
+}
 
+.testment {
+    color: var(--color-black);
+    font-family: "Playfair Display", serif;;
+}
+
+hr {
+    width: 75%;
+    height: 2px;
+    border-width: 0;
+    color: var(--color-black);
+    background-color: var(--color-black);
+    margin: auto;
+}
+
+/* Generics */
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.m-x{
+    margin: 0 var(--spacing-gutter-medium);
+}
+
+.m-y{
+    margin: var(--spacing-gutter-medium) 0;
+}
+
+.bold {
+    font-weight: 800;
+}
